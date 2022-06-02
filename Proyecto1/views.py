@@ -7,7 +7,7 @@ def saludo(request):
   return HttpResponse("Hola mundo")
 
 def otro_saludo(request):
-  return HttpResponse("la pechaste liverpool")
+  return HttpResponse("argentina 3 - italia 0 - vamoooo")
 
 def DiaDeHoy(request):
   dia = datetime.datetime.now()
